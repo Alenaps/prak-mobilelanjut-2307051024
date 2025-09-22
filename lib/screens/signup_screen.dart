@@ -46,7 +46,7 @@ class _SignupScreenState extends State<SignupScreen> {
               ),
               boxShadow: [
                 BoxShadow(
-                  color: const Color(0xFF1E88FF).withOpacity(0.25),
+                  color: const Color(0xFF1E88FF).withValues(alpha: 0.25),
                   blurRadius: 10,
                   offset: const Offset(0, 4),
                 ),
@@ -92,7 +92,7 @@ class _SignupScreenState extends State<SignupScreen> {
                     borderRadius: BorderRadius.circular(16),
                     boxShadow: [
                       BoxShadow(
-                        color: Colors.black.withOpacity(0.05),
+                        color: Colors.black.withValues(alpha:0.05),
                         blurRadius: 16,
                         offset: const Offset(0, 6),
                       ),
