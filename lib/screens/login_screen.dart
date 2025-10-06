@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:myapp/screens/dashboard_screen.dart';
 import 'signup_screen.dart';
+import 'splash_screen.dart';
 
 class LoginScreen extends StatefulWidget {
   static const route = '/signin';
@@ -164,7 +164,7 @@ class _LoginScreenState extends State<LoginScreen> {
                           } else {
                             Navigator.pushNamedAndRemoveUntil(
                               context,
-                              DashboardScreen.route,
+                              SplashScreen.route,
                               (route) => false,
                             );
                           }
